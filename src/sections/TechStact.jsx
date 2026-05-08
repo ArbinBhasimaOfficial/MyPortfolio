@@ -1,0 +1,35 @@
+import TechIcon from "../components/Models/TechLogos/TechIcon.jsx";
+import TitleHeader from "../components/TitleHeader";
+import { techStackIcons } from "../constants/index.js";
+
+
+const TechStack = () => {
+  return (
+    <div id="skills" className="flex-center section-padding">
+      <div className="w-full h-full md:px-10 px-5">
+        <TitleHeader 
+          title="My Tech Stack"
+          sub="What my experties lies at...😁"
+        />
+        <div className="tech-grid">
+          {techStackIcons.map((icon) => (
+            <div key={icon.name} className="card-border tech-card overflow-hidden xl:rounded-full rounded-lg group ">
+              <div className="tech-card-animated-bg" />
+              <div className="tech-card-content">
+                <div className="tech-icon-wrapper">
+                  <TechIcon model={icon}/>
+                </div>
+                <div className="padding-x w-full">
+                  <p>{icon.name}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+      </div>
+    </div>
+  )
+}
+
+export default TechStack
