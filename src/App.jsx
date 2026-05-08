@@ -5,6 +5,9 @@ import Hero from "./sections/Hero.jsx"
 import ShowcaseSection from "./sections/ShowcaseSection.jsx"
 import ExperienceSection from "./sections/ExperienceSection.jsx"
 import TechStack from "./sections/TechStact.jsx";
+import Testimonials from "./sections/Testimonials.jsx";
+import Contact from "./sections/Contact.jsx";
+import Footer from "./sections/Footer.jsx";
 
 const App = () => {
   return (
@@ -16,6 +19,9 @@ const App = () => {
         <FeatureCards className="animate-nav-down"/>
         <ExperienceSection className="animate-nav-down"/>
         <TechStack className="animate-nav-down"/>
+        <Testimonials className="animate-nav-down"/>
+        <Contact className="animate-nav-down"/>
+        <Footer />        
     </>
   )
 }
