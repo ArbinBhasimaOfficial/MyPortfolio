@@ -52,9 +52,9 @@ const ShowcaseSection = () => {
                         <img src="/images/project1.png" alt="Ryde" />
                     </div>
                     <div className="text-content text-cyan-400">
-                        <h2>On-Demand Rides Made Simple with a Powerful, User-Friendly App called Ryde.</h2>
+                        <h2>On-Demand Market Intelligence Web Application Made Simple with a Powerful, Data Analytics Reporting, etc.</h2>
                         <p className="text-cyan-200 md:text-xl">
-                             An app built with React Native, Expo, $ TailwindCSS for a fast, user-friendly experience.
+                             An app built with FastAPI, NextJS, Pydantic, $ TailwindCSS for a fast, user-friendly experience.
                         </p>
                     </div>
                 </div>
@@ -65,13 +65,13 @@ const ShowcaseSection = () => {
                         <div className="image-wrapper bg-[#00E5C8]">
                             <img src="/images/project2.png" alt="Library Management Platform" />
                         </div>
-                        <h2 className="text-cyan-400">Library Management Platform</h2>
+                        <h2 className="text-cyan-400">IntelliTrade - Global Trade Market Intelligence</h2>
                     </div>
                     <div className="project" ref={project3Ref}>
                         <div className="image-wrapper bg-[#0D8A7A]">
                             <img src="/images/project3.png" alt="YC Directory" />
                         </div>
-                        <h2 className="text-cyan-400">YC Directory - A Startup Showcase App</h2>
+                        <h2 className="text-cyan-400">Quiz Central - A Quiz Application</h2>
                     </div>
                     
 
